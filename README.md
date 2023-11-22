@@ -9,7 +9,7 @@ To-do:
 
 ## Inspired by Learning
 
-With the aim of learning and practicing Java and React, this project drew inspiration from "[Spring Boot + ReactJS: React Table Pagination] (https://www.knowledgefactory.net/2022/06/spring-boot-reactjs-data-table-pagination.html)" provided by Knowledge Factory.
+With the aim of learning and practicing Java and React, this project drew inspiration from ["Spring Boot + ReactJS: React Table Pagination"](https://www.knowledgefactory.net/2022/06/spring-boot-reactjs-data-table-pagination.html) provided by Knowledge Factory.
 
 ## Prerequisites
 
