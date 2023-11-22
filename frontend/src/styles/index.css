@@ -1,0 +1,304 @@
+/* 
+  * Book Styles 
+*/
+
+h1 {
+  text-align: center;
+  color: #4dc3fa;
+  margin-top: 20px !important;
+}
+
+h2 {
+  font-size: 1em;
+  font-weight: 300;
+  text-align: center;
+  display: block;
+  line-height: 1em;
+  padding-bottom: 2em;
+  color: #fb667a;
+}
+
+h2 a {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fb667a;
+  text-decoration: none;
+}
+
+table {
+  margin: 20px auto !important;
+}
+
+tbody, td, tfoot, th, thead, tr {
+  border-color: #1f2739;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.tableContainer td > button, input, optgroup, select, textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: 12px;
+  line-height: inherit;
+  width: 100%;
+  border-radius: 3px;
+  height: 30px;
+  border: none;
+  padding: 0 8px;
+}
+
+.yellow {
+  color: #fff842;
+}
+
+.tableContainer {
+  text-align: left;
+  overflow: hidden;
+  width: 100%;
+  display: table;
+}
+
+.tableThead {
+  text-align: center;
+}
+
+.tableContainer th {
+  background-color: #fff;
+  color: #000;
+  position: relative;
+}
+
+.tableContainer th:first-child {
+  border-top-left-radius: 3px;
+}
+
+.tableContainer th:nth-child(8) {
+  border-top-right-radius: 3px;
+}
+
+.tableContainer th h1 {
+  font-weight: bold;
+  font-size: 1em;
+  text-align: left;
+  color: #185875;
+  display: inline-block;
+}
+
+.tableContainer th span {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.tableContainer td {
+  font-weight: normal;
+  font-size: 1em;
+  -webkit-box-shadow: 0 2px 2px -2px #0e1119;
+  -moz-box-shadow: 0 2px 2px -2px #0e1119;
+  box-shadow: 0 2px 2px -2px #0e1119;
+}
+
+.tableContainer td {
+  padding-left: 2%;
+}
+
+.tableContainer td {
+  color: #dedede;
+  padding: 9px;
+  line-height: 1;
+}
+
+.tableContainer td:nth-child(2) {
+  color: #fb667a;
+  padding: 9px;
+  line-height: 1;
+}
+
+.tableContainer td:nth-child(4) {
+  padding: 9px;
+  line-height: 1;
+  width: 90px;
+}
+
+.tableContainer td:nth-child(5) {
+  color: #fb667a;
+  padding: 9px;
+  line-height: 1;
+}
+
+.tableContainer td:nth-child(8) {
+  padding: 9px;
+  line-height: 1;
+  width: 30px;
+}
+
+.tableContainer td:hover {
+  background-color: #fff842;
+  color: #403e10;
+}
+
+.tableContainer tr:nth-child(odd) {
+  background-color: #323c50;
+}
+
+.tableContainer tr:nth-child(even) {
+  background-color: #2c3446;
+}
+
+.tableContainer tr:hover {
+  background-color: #464a52;
+  -webkit-box-shadow: 0 6px 6px -6px #0e1119;
+  -moz-box-shadow: 0 6px 6px -6px #0e1119;
+  box-shadow: 0 6px 6px -6px #0e1119;
+}
+
+.icon {
+  margin-left: 9px;
+  margin-top: -2px;
+}
+
+.yellow {
+  color: #fff842;
+}
+
+/* 
+  * Search Styles 
+*/
+
+.bookSearch {}
+
+.bookSearchInput {
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  height: 30px;
+}
+
+.bookSearchButton {}
+
+/* 
+  * Table Cell Styles 
+*/
+
+/* 
+  * Edit Cell Styles 
+*/
+
+.editCellContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.editCellActions {
+  display: flex;
+  gap: 7px;
+}
+
+.editCellActionsCan {
+  color: #fff;
+  background-color: #c67d1f;
+  border-radius: 13px;
+  width: 25px;
+  height: 25px;
+  border: none;
+  font-size: 11px;
+}
+
+.editCellActionsCan:hover {
+  background-color: #c67d1f69;
+}
+
+.editCellActionsDon {
+  color: #fff;
+  background-color: #268deb;
+  border-radius: 13px;
+  width: 25px;
+  height: 25px;
+  border: none;
+  font-size: 11px;
+}
+
+.editCellActionsDon:hover {
+  background-color: #268deb80;
+}
+
+.editCellActionsEdit {
+  color: #fff;
+  background-color: #4b9e77;
+  border-radius: 13px;
+  width: 25px;
+  height: 25px;
+  border: none;
+  font-size: 11px;
+}
+
+.editCellActionsDel {
+  color: #fff;
+  background-color: #d54659;
+  border-radius: 13px;
+  width: 25px;
+  border: none;
+  height: 25px;
+  font-size: 11px;
+}
+
+.editCellActionsDel:hover {
+  background-color: #d546598f;
+}
+
+.editCellActionsEdit:hover {
+  background-color: #4b9e775c;
+}
+
+.editCelCheckbox {
+  height: 15px;
+  margin-right: -5px;
+  width: 30px;
+  margin-top: 5px;
+}
+
+/* 
+  * Footer Cell Styles 
+*/
+
+.footerCellContainer {
+  text-align: end;
+}
+
+.footerCellRemoveBtn {
+  border: none;
+  border-radius: 3px;
+  font-size: 13px;
+  padding: 3px 6px;
+  margin: 9px;
+  color: #fff;
+  background-color: #d54659;
+}
+
+/* 
+  * Pagitantion Styles 
+*/
+
+.paginationContainer {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 20px;
+  margin-right: -5px;
+}
+
+.paginationButtons {
+  background-color: transparent;
+  border: none;
+}
+
+.paginationBtnIcon {
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  padding-top: 3px;
+}
